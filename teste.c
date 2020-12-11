@@ -4,13 +4,13 @@ typedef struct Fila{
     int ini;
     int meio;
     int fim;
-    int fila;
-}; fila; 
+    int fiila;
+} var; 
 
-main(void)
+int main(void)
 {
     int algo;
-    printf("%d",fila.ini);
-    printf("%d",algo);
+    var ab;
+    printf("%d%d",algo,ab);
     return 0;
 }
